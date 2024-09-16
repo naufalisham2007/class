@@ -1,0 +1,98 @@
+div {
+    width: 70%;
+    margin: auto;
+}
+
+p{
+    border: 3px solid color aliceblue;
+
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    border: 2px dashed white;
+    position: sticky;
+    top: 30px;
+}
+
+h2 {
+    border: solid white;
+    margin-top: 50px;
+    color: brown;
+}
+ul {
+    color: aliceblue;
+}
+
+img {
+    border: 2px solid rgb(225, 13, 13);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+body {
+    color: rgb(11, 11, 11);
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#huruf {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.warna {
+    color: chartreuse;
+}
+
+.model {
+    font-weight: bold;
+}
+
+.ukuran {
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkcyan;
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+}
+
+ul li {
+    color: antiquewhite;
+    background: darkcyan;
+    display: block;
+    border: 1px blue;
+    float: left;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+ul li a {
+    color: aliceblue;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+
+
+
